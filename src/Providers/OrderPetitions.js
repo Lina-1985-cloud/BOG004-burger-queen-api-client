@@ -1,6 +1,6 @@
 import axios from "axios";
 import { getId } from "./UserPetitions";
-const url = 'http://localhost:8080/';
+const url = 'REACT_APP_API_URL';
 
 //----- Peticion para que el mesero pueda ver los productos -----
 const products = (token) => {
